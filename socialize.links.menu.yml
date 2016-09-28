@@ -1,0 +1,5 @@
+socialize.settings:
+  title: 'Social links'
+  parent: system.admin_structure
+  description: 'Configure sitewide social sharing links.'
+  route_name: socialize.settings

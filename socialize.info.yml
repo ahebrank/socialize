@@ -1,0 +1,6 @@
+name: Socialize
+type: module
+description: Social sharing and links
+core: 8.x
+package: NewCity
+configure: socialize.settings

@@ -1,0 +1,20 @@
+socialize.settings:
+  type: config_object
+  mapping:
+    share_links:
+      type: sequence
+      sequence:
+        type: mapping
+        mapping:
+          service:
+            type: string
+    link_links:
+      type: sequence
+      sequence:
+        type: mapping
+        mapping:
+          title:
+            type: string
+          url:
+            type: string
+  

@@ -1,0 +1,7 @@
+socialize.settings:
+  path: '/admin/config/socialize'
+  defaults:
+    _form: '\Drupal\socialize\Form\SettingsForm'
+    _title: 'Settings'
+  requirements:
+    _permission: 'administer socialize'

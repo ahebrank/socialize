@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains socialize.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function socialize_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the socialize module.
+    case 'help.page.socialize':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Social sharing and links') . '</p>';
+      return $output;
+
+    default:
+  }
+}
